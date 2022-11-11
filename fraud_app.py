@@ -128,4 +128,4 @@ if st.button("Predict"):
         prediction = "fraudulent"
     else:
         prediction = "not fraudulent"
-    st.success(f"This transaction is ** {prediction}.**")
+    st.success(f"This transaction is **{prediction}.**")
